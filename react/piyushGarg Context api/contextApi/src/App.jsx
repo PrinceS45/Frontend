@@ -1,15 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState , useContext } from 'react'
 import './App.css'
+import Counter from './components/Counter'
+import CounterContext from './context/Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
+  const counterState = useContext(CounterContext) ; 
 
   return (
-    <>
-     
-    </>
+    <div className='App'>
+      <h1>Count is {counterState.count}</h1>
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
+
+    </div>
   )
 }
 
