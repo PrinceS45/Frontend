@@ -1,0 +1,24 @@
+.Menu {
+  text-align: left ;
+  left: -100%;
+  position: fixed ; 
+  transition: 0.5s;
+  list-style: none;
+     height: 100% ;
+     background-color: yellow;
+}
+.Menu ul li {
+   list-style-type: none;
+  padding: 10px 0;
+}
+.micon {
+   position: absolute;
+   right: 18% ;
+
+}
+.active {
+   left: 0%;
+}
+.container {
+    max-width: 50%;
+}
