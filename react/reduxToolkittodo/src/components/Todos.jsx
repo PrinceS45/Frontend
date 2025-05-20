@@ -8,6 +8,18 @@ function Todos() {
 
   return (
     <>
+ 
+ 
+  <div class="absolute inset-0">
+    <div class="relative h-full w-full [&>div]:absolute [&>div]:bottom-0 [&>div]:right-0 [&>div]:z-[-2] [&>div]:h-full [&>div]:w-full [&>div]:bg-gradient-to-b [&>div]:from-pink-200 [&>div]:to-green">
+    <div></div>
+    
+  </div>
+  </div>
+  
+ 
+ 
+ 
     <div>Todos</div>
     <ul className="list-none">
         {todos.map((todo) => (
